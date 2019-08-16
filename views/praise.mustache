@@ -1,0 +1,42 @@
+<html>
+{{>menu}}
+<body>
+
+<h2>All your praise songs</h2>
+
+{{#songs}}
+
+<h3>{{artist}}</h3>
+<h5>{{title}}</h5>
+<h4>{{lyrics}}</h4>
+<h4>{{categories}}</h4>
+
+<form action="/edit" method="POST" >
+  <input type="hidden" name="songid" value = "{{songid}}"/>
+  <button>update</button>
+</form>
+<form action="/deletePraise" method="POST" >
+  <input type="hidden" name="songid" value = "{{songid}}"/>
+  <button>delete</button>
+</form>
+
+{{/songs}}
+
+{{#songs}}
+<form action="/updatePraise" method="POST">
+        <input type="text" name="artist" value="{{artist}}"/>
+        <input type="text" name="title"  value="{{title}}"/>
+        <input type="text" name="lyrics"  value="{{lyrics}}"/>
+        <input type="text" name="categories" placeholder="categories" />
+        <input type="hidden" name="songid" value = "{{songid}}"/>
+        <button>Save</button>
+        
+    </form>
+    {{/songs}}
+
+</body>
+
+
+
+
+</html>

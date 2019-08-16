@@ -1,0 +1,152 @@
+
+   
+
+body{
+    background-color:gainsboro;
+    background-image: url("Stage_Christmas.jpg")
+}
+h1{
+    background-color: bisque;
+}
+.navbar-brand{
+    background-color: blue;
+    background-image: url("Stage Design1.jpg")
+}
+h3{
+    background-color: aliceblue;
+    font-style: normal;
+}
+h4{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    color: honeydew;
+}
+img{
+    width: 150px;
+    resize: horizontal;
+    height: inherit;
+    align-items: center;
+    display: block;
+}
+.card-text{
+    color: gainsboro;
+}
+.text-muted{
+    color: beige;
+}
+ 
+    #container{  
+        background: bottom; 
+    width: 100%;   
+   height: 100%;   
+   font-family: "Helvetica Neue", Helvetica, sans-serif;   
+   color: bottom;   
+   -webkit-font-smoothing: antialiased;   
+    background: bottom;
+   }
+   #container{
+       position: fixed;
+       width: 340px;
+       height: 280px;
+       top: 50%;
+       left: 50%;
+       margin-top: -140px;
+       margin-left: -170px;
+       background-color: bottom;
+       border-radius: 3px;
+       border: 1px solid #ccc;
+       box-shadow: 0 1px 2px rgba(0, 0, 0, .1)
+       
+
+
+   }
+   #container input[type=text]{
+       color: #777;
+       padding-left: 10px;
+       margin: 10px;
+       margin-top: 12px;
+       margin-left: 18px;
+       width: 290px;
+       height: 35px;;
+   }
+   #container input{
+       font-family: Arial, Helvetica, sans-serif;
+       font-size:12px;
+       outline: none;
+
+   }
+
+  #container p a{
+      font-size: 11px;
+      color: #aaa;
+      float: right;
+      margin-top: -13px;
+      margin-right: 20px;
+
+  }
+  #container button{
+      float: center;
+      margin-right: 20px;
+      margin-left: 20px;
+      width: 80px;
+      height: 30px;
+  }
+  
+  #registerDiv{
+  
+        width: 100%;   
+       height: 100%;   
+       font-family: "Helvetica Neue", Helvetica, sans-serif;   
+       color: #444;   
+       -webkit-font-smoothing: antialiased;   
+        background: bottom;
+       }
+       #registerDiv{
+           position: fixed;
+           width: 340px;
+           height: 280px;
+           top: 50%;
+           left: 50%;
+           margin-top: -140px;
+           margin-left: -170px;
+           background-color: bottom;
+           border-radius: 3px;
+           border: 1px solid #ccc;
+           box-shadow: 0 1px 2px rgba(0, 0, 0, .1)
+    
+    
+       }
+       #cregisterDiv input[type=text]{
+           color: #777;
+           padding-left: 10px;
+           margin: 10px;
+           margin-top: 12px;
+           margin-left: 18px;
+           width: 290px;
+           height: 40px;;
+       }
+       #cregisterDiv input{
+           font-family: Arial, Helvetica, sans-serif;
+           font-size:12px;
+           outline: none;
+    
+       }
+    
+      #registerDiv p a{
+          font-size: 11px;
+          color: #aaa;
+          float: right;
+          margin-top: -13px;
+          margin-right: 20px;
+    
+      }
+      #registerDiv button{
+          float: center;
+          margin-right: 20px;
+          margin-left: 20px;
+          width: 80px;
+          height: 30px;
+      }
+      

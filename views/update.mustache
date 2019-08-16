@@ -1,0 +1,24 @@
+<html>
+<body>
+
+<header>
+
+{{>menu}}
+
+</header>
+
+<h1>updated songs</h1>
+{{#songs}}
+<form action="/update" method="POST">
+        <input type="text" name="artist" value="{{artist}}"/>
+        <input type="text" name="title"  value="{{title}}"/>
+        <input type="text" name="lyrics"  value="{{lyrics}}"/>
+        <input type="text" name="categories" placeholder="categories" />
+        <input type="hidden" name="songid" value = "{{songid}}"/>
+        <button>Save</button>
+        
+    </form>
+    {{/songs}}
+</body>
+
+</html>
