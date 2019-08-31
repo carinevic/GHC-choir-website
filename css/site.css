@@ -1,6 +1,4 @@
 
-   
-
 body{
     background-color:gainsboro;
     background-image: url("Stage_Christmas.jpg")
@@ -35,6 +33,9 @@ img{
 }
 .text-muted{
     color: beige;
+    width: 250pc;
+    background-color: moccasin;
+    
 }
  
     #container{  

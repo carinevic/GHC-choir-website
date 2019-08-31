@@ -258,6 +258,6 @@ app.get('/quickview',(req,res) =>{
   
     db.any('SELECT songid,artist,title FROM songs')
 })
-app.listen(3000,()=>{
+app.listen(3001,()=>{
     console.log('server is on')
 })
